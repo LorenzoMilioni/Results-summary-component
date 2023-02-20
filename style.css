@@ -254,6 +254,7 @@ body{
     display: inline-block;
     width: 100%;
     margin-top: 10px;
+    margin-bottom: 15%;
 }
 
 #visual img{
@@ -300,10 +301,11 @@ body{
     background-color: hsl(224, 30%, 27%);
     border-radius: 50px;
     border: none;
-    margin-top: 15%;
-    margin-bottom: 10%;
     padding: 5%;
     width: 100%;
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    margin: 0;
 }
 
 .button:hover{
@@ -312,23 +314,6 @@ body{
     border: none;
     
 }
-
-.button h1{
-    color: hsl(0, 0%, 100%);
-    font-size: 18px;
-    margin: 0;
-}
-
-
-
-
-
-
-
-
-
-
-
 
 @media only screen and (max-width: 375px) {
     /* For mobile phones: */
